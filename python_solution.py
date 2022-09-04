@@ -200,6 +200,6 @@ def main(input_text: str) -> str:
 if __name__ == '__main__':
     print(main("""5 5
 1 2 N
-LMLMLMLMM
+MM
 3 3 E
-MMRMMRMRRM"""))
+MM"""))

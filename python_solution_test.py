@@ -44,7 +44,6 @@ MMRMMRMRRM""",
 
 @pytest.mark.parametrize("input, expected_output", test_data)
 def test_success_main(input, expected_output):
-
     assert main(input) == expected_output
 
 
